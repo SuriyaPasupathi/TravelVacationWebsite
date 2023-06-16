@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,100;1,300&family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&family=Titillium+Web:wght@200&display=swap");
+.page_8 .about_page {
+  height: 95vh;
+  width: 100%;
+  line-height: 1.8;
+  font-weight: 400;
+  color: #999999;
+}
+.page_8 .about_page .bg img {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.page_8 .about_page .bgcolor {
+  position: absolute;
+  background-color: rgba(240, 248, 255, 0);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+}
+.page_8 .about_page .content {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  margin-top: 50px;
+}
+.page_8 .about_page .content .part_1 {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  height: 400px;
+  width: 100%;
+}
+.page_8 .about_page .content .part_1 .title {
+  /* position: absolute; */
+  height: 360px;
+  width: 250px;
+  /* border: 2px solid white; */
+  padding: 0 15px;
+}
+.page_8 .about_page .content .part_1 .title h2 {
+  font-size: 18px;
+  margin: 0px 0px 40px;
+  color: white;
+}
+.page_8 .about_page .content .part_1 .title p {
+  font-size: 16px;
+  margin: 0px 0px 16px;
+}
+.page_8 .about_page .content .part_1 .title i {
+  font-size: 28px;
+  padding: 15px;
+  margin: 20px 10px 0 10px;
+  border: 2px solid #33313b;
+  border-radius: 50px;
+  background-color: #33313b;
+  color: white;
+}
+.page_8 .about_page .content .part_1 .title_2 {
+  /* position: absolute; */
+  height: 360px;
+  width: 250px;
+  /*  border: 2px solid white; */
+  /* padding: 0 15px; */
+}
+.page_8 .about_page .content .part_1 .title_2 ul li {
+  list-style: none;
+  padding: 10px 0 10px 0;
+}
+.page_8 .about_page .content .part_1 .title_2 h2 {
+  font-size: 18px;
+  margin: 0px 0px 40px;
+  color: white;
+}
+.page_8 .about_page .content .part_1 .title_3 {
+  /* position: absolute; */
+  height: 360px;
+  width: 250px;
+  /*  border: 2px solid white; */
+  padding: 0 15px;
+}
+.page_8 .about_page .content .part_1 .title_3 ul li {
+  list-style: none;
+  padding: 10px 0 10px 0;
+}
+.page_8 .about_page .content .part_1 .title_3 h2 {
+  font-size: 18px;
+  margin: 0px 0px 40px;
+  color: white;
+}
+.page_8 .about_page .content .part_1 .title_4 {
+  /* position: absolute; */
+  height: 360px;
+  width: 250px;
+  /*  border: 2px solid white; */
+  padding: 0 15px;
+}
+.page_8 .about_page .content .part_1 .title_4 ul li {
+  list-style: none;
+  padding: 10px 0 10px 0;
+}
+.page_8 .about_page .content .part_1 .title_4 h2 {
+  font-size: 18px;
+  margin: 0px 0px 40px;
+  color: white;
+}
+.page_8 .about_page .content .part_2 {
+  flex-wrap: wrap;
+}
+.page_8 .about_page .content .part_2 p {
+  text-align: center;
+  margin-top: 50px;
+}/*# sourceMappingURL=page_8.css.map */

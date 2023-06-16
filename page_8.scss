@@ -1,0 +1,152 @@
+$buttoncolor: rgb(249,171,48);
+$colour1: #33313b;
+$colour2:#999999;
+ @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,100;1,300&family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&family=Titillium+Web:wght@200&display=swap');
+
+@mixin diplayFlex($justify:center,$align:center){
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+
+}
+.page_8{
+    .about_page{
+        height: 95vh ;
+        width: 100%;
+        line-height: 1.8;
+        font-weight: 400;
+        color: #999999;
+        .bg img{
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            object-fit: cover;
+        }
+        .bgcolor{
+            position: absolute;
+            background-color: rgba(240, 248, 255, 0); 
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            /* align-items: center; */  
+           
+        }
+        .content{
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            margin-top: 50px;
+            
+            .part_1{
+                flex-wrap: wrap;
+                display: flex;
+                justify-content: space-around;
+                
+                height: 400px;
+                width: 100%;
+                 .title{
+        
+                h2{
+                    font-size: 18px;
+                    margin: 0px 0px 40px;
+                    color: white;
+
+                }
+                p{
+                    font-size: 16px;
+                    
+                    margin: 0px 0px 16px;
+                }
+                /* position: absolute; */
+                height: 360px;
+                width: 250px;
+                /* border: 2px solid white; */
+               
+                padding: 0 15px;
+                i{
+                    font-size: 28px;
+                    padding: 15px;
+                    margin: 20px 10px 0 10px;
+                    border: 2px solid $colour1;
+                    border-radius: 50px;
+                    background-color: #33313b;
+                    color: white;
+                }
+                
+               
+                
+            }
+            .title_2{
+                /* position: absolute; */
+                height: 360px;
+                width: 250px;
+               /*  border: 2px solid white; */
+                
+                /* padding: 0 15px; */
+                ul li{
+                    list-style: none;
+                    padding:  10px 0 10px 0 ;
+                }
+                h2{
+                    font-size: 18px;
+                    margin: 0px 0px 40px;
+                    color: white;
+
+                }
+                
+            }
+            .title_3{
+                /* position: absolute; */
+                height: 360px;
+                width: 250px;
+               /*  border: 2px solid white; */
+                
+                padding: 0 15px;
+                ul li{
+                    list-style: none;
+                    padding:  10px 0 10px 0 ;
+                }
+                h2{
+                    font-size: 18px;
+                    margin: 0px 0px 40px;
+                    color: white;
+
+                }
+
+                
+            }
+            .title_4{
+                /* position: absolute; */
+                height: 360px;
+                width: 250px;
+
+               /*  border: 2px solid white; */
+              
+                padding: 0 15px;
+                ul li{
+                    list-style: none;
+                    padding:  10px 0 10px 0 ;
+                }
+                h2{
+                    font-size: 18px;
+                    margin: 0px 0px 40px;
+                    color: white;
+
+                }
+               
+            }
+           
+
+            }
+            .part_2{
+                flex-wrap: wrap;
+                p{
+                    text-align: center;
+                    margin-top: 50px;
+                }
+            }
+        }
+        
+    }
+}

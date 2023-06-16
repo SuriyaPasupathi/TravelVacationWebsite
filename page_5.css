@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,100;1,300&family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&family=Titillium+Web:wght@200&display=swap");
+.page_5 .tour_content {
+  height: auto;
+  width: 100%;
+  flex-wrap: wrap;
+  line-height: 1.6;
+  letter-spacing: 1.5px;
+}
+.page_5 .tour_content h1 {
+  flex-wrap: wrap;
+  text-align: center;
+  font-size: 40px;
+}
+.page_5 .tour_content .box_content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.page_5 .tour_content .box_content .place_amount {
+  position: relative;
+  margin: 20px 0px;
+  height: 480px;
+  width: 350px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.page_5 .tour_content .box_content .place_amount .icon ul {
+  /* margin:20px 0 0 -10px; */
+  display: flex;
+}
+.page_5 .tour_content .box_content .place_amount .icon ul li {
+  margin-left: 9px;
+  margin-top: 10px;
+  list-style: none;
+  padding: 10px;
+  font-weight: 400;
+  font-size: 15px;
+}
+.page_5 .tour_content .box_content .place_amount .icon ul li i {
+  color: rgb(249, 171, 48);
+  height: 20px;
+  width: 20px;
+}
+.page_5 .tour_content .box_content .place_amount p {
+  font-size: 12px;
+  color: #999999;
+  margin: 15px 0 0 16px;
+}
+.page_5 .tour_content .box_content .place_amount h2 {
+  margin: 10px 0 0 16px;
+  font-size: 24px;
+  font-weight: 500;
+}
+.page_5 .tour_content .box_content .place_amount img {
+  height: 280px;
+  width: 350px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.page_5 .tour_content .box_content .place_amount button {
+  position: absolute;
+  font-size: 16px;
+  color: white;
+  right: 130px;
+  top: 260px;
+  padding: 8px;
+  border-radius: 25px;
+  background-color: rgb(249, 171, 48);
+  border: 2px solid rgb(249, 171, 48);
+}/*# sourceMappingURL=page_5.css.map */
