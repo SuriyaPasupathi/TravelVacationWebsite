@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,100;1,300&family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&family=Titillium+Web:wght@200&display=swap");
 .page_6 {
-  height: 75vh;
+  height: 80vh;
   width: 100%;
   line-height: 1.6;
   letter-spacing: 1.5px;
+  position: relative;
 }
 .page_6 .feedback_bg img {
   position: absolute;

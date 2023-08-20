@@ -1,0 +1,128 @@
+@use "./commonPartials" as *;
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.page_1{
+    font-family: "Poppins", Arial, sans-serif;
+    line-height: 1.8;
+    font-weight: 400;
+    color: #999999;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    flex-wrap: wrap;
+    img.bg_Page_1{
+        position: absolute;
+        object-fit: fill;
+        height: 100%;
+        width: 100%;
+        // z-index: -5;
+    }
+    .bg_colour{
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        background-color: rgba(222, 126, 219, 0.275);
+    }
+    .content{
+        position: absolute;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        bottom: 0px;
+        .part_1{
+            flex-wrap: wrap;
+            height: auto;
+            margin-bottom: 150px;
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-items: center;
+            color: rgb(231, 231, 240);
+         
+            i{ 
+                color: white;
+                text-align: center;
+                font-size: 15px;
+                border: 1px solid #F9AB30;
+                border-radius: 50px;
+                background-color: #F9AB30;
+                height: 80px;
+                width: 80px;
+                padding: 33px;
+                margin-bottom: 20px;
+            }
+            p{
+                flex-wrap: wrap;
+                font-size: 18px;
+              /*   padding: 10px; */
+            }
+            h1{
+                font-size: 60px;
+                font-weight: 300;
+                padding: 10px;
+                text-align: center;
+            }
+
+        }
+        .part_2{
+            display: flex;
+            justify-content: space-between;
+            align-content: center;
+            flex-wrap: wrap;
+            height: 130px;
+            width: 73%;
+            min-width: 73%;
+            background-color: #33313b;
+            padding: 24px;
+            font-size: 20px;
+            
+           
+            label{
+                color: rgb(255, 253, 250);
+                
+            }
+            .destination{
+                .destination__search{
+                    display: flex;
+                    
+    
+                }
+            }
+            input, select{
+                background-color: #33313b;
+                color: #777A83;
+                font-size: 20px;
+                width: 184px;
+                height: 25px;
+                text-align: left;
+                border: 0px solid ;
+                flex-wrap: wrap;
+               
+            }
+            button{
+                height: 68px;
+                width: 184px;
+                border: 2px solid #F9AB30;
+                background-color: #F9AB30;
+                border-radius: 35px;
+                font-size: 16px;
+                color: white;
+            }
+            
+        
+        i{
+            padding: 5px;
+            
+        }
+            
+            
+            }
+    }
+}

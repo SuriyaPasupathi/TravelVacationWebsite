@@ -6,9 +6,10 @@
 }
 
 .page_4 {
+  padding: 30px;
   line-height: 1.6;
   letter-spacing: 1.8px;
-  height: 70vh;
+  height: auto;
   width: 100%;
 }
 .page_4 h2 {
@@ -17,36 +18,38 @@
 }
 .page_4 .place_desi {
   display: flex;
-  /* height: 100%; */
   width: 100%;
   justify-content: space-evenly;
-  /* align-items: center; */
+  position: relative;
   flex-wrap: wrap;
 }
 .page_4 .place_desi .box_pic {
-  /*     position: relative; */
   height: 320px;
-  width: 250px;
+  width: 260px;
   margin-top: 20px;
 }
-.page_4 .place_desi .box_pic .bg1 img {
+.page_4 .place_desi .box_pic .bg1 {
   position: absolute;
+}
+.page_4 .place_desi .box_pic .bg1 .bgimg {
   height: 320px;
   width: 250px;
   border-radius: 5px;
 }
 .page_4 .place_desi .box_pic .bg {
-  position: absolute;
-  /* height: 320px;
-  width: 280px; */
+  position: relative;
 }
 .page_4 .place_desi .box_pic .bg h3 {
   color: rgb(248, 247, 247);
   font-size: 22px;
   padding: 10px;
+  position: absolute;
   font-weight: 300;
 }
 .page_4 .place_desi .box_pic .bg span {
+  position: absolute;
+  right: 10px;
+  top: 270px;
   border: 1px solid #33313B;
   background-color: #33313B;
   color: white;
@@ -54,8 +57,4 @@
   border-top-left-radius: 25px;
   border-bottom-left-radius: 25px;
   font-size: 16px;
-}
-.page_4 .place_desi .box_pic .bg img {
-  height: 320px;
-  width: 210px;
 }/*# sourceMappingURL=page_4.css.map */

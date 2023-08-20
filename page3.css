@@ -2,7 +2,7 @@
 .page_3 {
   font-family: "Poppins", Arial, sans-serif;
   /* position: relative; */
-  height: 100vh;
+  height: auto;
   width: 100%;
   display: flex;
   justify-content: space-evenly;
@@ -14,7 +14,7 @@
 .page_3 .left_side {
   /*   position: absolute; */
   height: 550px;
-  width: 30%;
+  width: 550px;
 }
 .page_3 .left_side img {
   height: 550px;
@@ -27,7 +27,7 @@
   /* right: 150px;
   top: 150px; */
   /* height: 570px; */
-  width: 40%;
+  width: 500px;
   /* padding: 50px; */
 }
 .page_3 .right_side h1 {

@@ -10,12 +10,12 @@ $colour1: #33313b;
     align-items: $align;
 
 }
-
+@use "./commonPartials" as *;
 .page_3{
     
     font-family: 'Poppins', Arial, sans-serif;
     /* position: relative; */
-    height: 100vh;
+    height: auto;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -28,7 +28,7 @@ $colour1: #33313b;
       /*   position: absolute; */
        
         height: 550px;
-        width: 30%;
+        width: 550px;
         img{
             height: 550px;
             width: 550px;
@@ -42,7 +42,7 @@ $colour1: #33313b;
         /* right: 150px;
         top: 150px; */
         /* height: 570px; */
-        width: 40%;
+        width: 500px;
         /* padding: 50px; */
         h1{
             font-size: 40px;

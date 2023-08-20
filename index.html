@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vacation</title>
-    <link rel="stylesheet" href="./landingpage.css">
+    <link rel="stylesheet" href="./Page_1.css">
     <link rel="stylesheet" href="./page_content.css">
     <link rel="stylesheet" href="./page3.css">
     <link rel="stylesheet" href="./page_4.css">
@@ -32,8 +32,8 @@
         <button class="book_now">Book Now</button>
         </ul>
         <div class="menu_bar">
-            <i class="fa fa-navicon"></i>
-                <ul>
+            <i class="fa fa-navicon"></i><span>MENU</span>
+                <ul class="menu_option">
                     <li>Home</li>
                     <li>About</li>
                     <li>Destination</li>
@@ -42,17 +42,16 @@
                 </ul>  
         </div>
 </section>
-    <section class="landing_page">
-        <img class="Bg_pic" src="https://preview.colorlib.com/theme/vacation/images/bg_2.jpg.webp" alt="bg_img">
-        <div class="bgop"></div>
-        <div class="data_page">
-            <div class="content">
-                <div class="paly_button"><i class="fa fa-play"></i></div>
-                <p>Travel ot the any corner of the world, without going around in circles</p>
-                <h1>Make Your Tour Amazing With Us</h1>
-            </div>
-            
-            <div class="search_deatils">
+ <section class="page_1">
+    <img class="bg_Page_1" src="https://preview.colorlib.com/theme/vacation/images/bg_2.jpg.webp" alt="">
+    <div class="bg_colour"></div>
+    <div class="content">
+        <div class="part_1">
+            <i class="fa fa-light fa-play"></i>
+            <p>Travel to the any corner of the world, without going around in circles</p>
+            <h1>Make Your Tour Amazing With Us</h1>
+        </div>
+        <div class="part_2">
                 <div class="desination">
                     <label for="">Desination</label>
                     <div class="destination__search">
@@ -61,11 +60,11 @@
                 </div>
                 <div class="in_date">
                     <label for="">Check-in date</label><br>
-                    <input type="date"><br>
+                    <input type="date" placeholder="Check in date"><br>
                 </div>
                 <div class="out_date">
                     <label for="">Check-out date</label><br>
-                    <input type="date"><br>
+                    <input type="date" ><br>
                 </div>
                 <div class="price">
                     <label for="">Price List</label><br>
@@ -87,10 +86,9 @@
                 </select>
                 </div>
                 <button>Search</button>
-            </div>
-            
         </div>
-    </section>
+    </div>
+</section>
     <section class="page_content">
     <div class="page_2">
         <div class="bg"></div>
@@ -132,6 +130,7 @@
     </div>
   </section>
    <section class="page_3">
+    <script src="./page_3java..js"></script>
         <div class="left_side"><img src="https://preview.colorlib.com/theme/vacation/images/about.jpg.webp" alt=""></div>
         <div class="right_side">
             <div class="deatil_memorable">
@@ -140,15 +139,15 @@
             </div>
             <div class="count">
                 <div class="tour">
-                    <h3>300</h3>
+                    <h3 id="Tour_conut">300</h3>
                     <p>Successful Tours</p>
                 </div>
                 <div class="tourist">
-                    <h3>24,000</h3>
+                    <h3 id="happy_tour">24,000</h3>
                     <p>Happy Tourist</p>
                 </div>
                 <div class="place">
-                    <h3>200</h3>
+                    <h3 id="place_visit">200</h3>
                     <p>Place Explored</p>
                 </div>
             </div>
@@ -160,28 +159,28 @@
         <h2>Best Place Destination</h2>
         <div class="place_desi">
             <div class="box_pic">
-                <div class="bg1"><img class="bg1" src="https://preview.colorlib.com/theme/vacation/images/place-1.jpg.webp" alt=""></div>
+                <div class="bg1"><img class="bgimg" src="https://preview.colorlib.com/theme/vacation/images/place-1.jpg.webp" alt=""></div>
                 <div class="bg">
                         <h3>Singapore</h3>
                         <span>8 Tours</span>
                 </div>
             </div>
             <div class="box_pic">
-                <div class="bg1"><img class="bg1" src="https://preview.colorlib.com/theme/vacation/images/place-2.jpg.webp" alt=""></div>                   
+                <div class="bg1"><img class="bgimg" src="https://preview.colorlib.com/theme/vacation/images/place-2.jpg.webp" alt=""></div>                   
                 <div class="bg">
                         <h3>canada</h3>
                         <span>2 Tours</span>                   
                 </div>
             </div>
             <div class="box_pic">
-                <div class="bg1"><img class="bg1" src="https://preview.colorlib.com/theme/vacation/images/place-3.jpg.webp" alt=""></div>                
+                <div class="bg1"><img class="bgimg" src="https://preview.colorlib.com/theme/vacation/images/place-3.jpg.webp" alt=""></div>                
                 <div class="bg">
                         <h3>thailand</h3>
                         <span>5 Tours</span>
                 </div>
             </div>
             <div class="box_pic">
-                <div class="bg1"><img class="bg1" src="https://preview.colorlib.com/theme/vacation/images/place-4.jpg.webp" alt=""></div>
+                <div class="bg1"><img class="bgimg" src="https://preview.colorlib.com/theme/vacation/images/place-4.jpg.webp" alt=""></div>
                 <div class="bg">
                         <h3>Australia</h3>
                         <span>5 Tours</span>                 
@@ -367,9 +366,7 @@
         </div>
     </section>
     <section class="page_8">
-        <div class="about_page">
             <div class="bg"><img class="bg" src="https://preview.colorlib.com/theme/vacation/images/footer-bg.jpg.webp" alt=""></div>
-            <div class="bg_color"></div>
             <div class="content">
                 <div class="part_1">
                     <div class="title">
@@ -419,10 +416,10 @@
                 </div>
                 <div class="part_2">
                     <p class="copyright">Copyright ©2023 All rights reserved<i class="fa-duotone fa-heart"></i>This template is made with  by Colorlib</p>
-
+    
                 </div>
             </div>
-        </div>
+            
 
     </section>
 </body>

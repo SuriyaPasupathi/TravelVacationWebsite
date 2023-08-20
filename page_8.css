@@ -1,117 +1,216 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,100;1,300&family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&family=Titillium+Web:wght@200&display=swap");
-.page_8 .about_page {
-  height: 95vh;
+.page_8 {
+  height: 97vh;
   width: 100%;
   line-height: 1.8;
   font-weight: 400;
   color: #999999;
+  position: relative;
 }
-.page_8 .about_page .bg img {
+.page_8 .bg img {
   height: 100%;
   width: 100%;
   position: absolute;
   -o-object-fit: cover;
      object-fit: cover;
 }
-.page_8 .about_page .bgcolor {
+.page_8 .content {
   position: absolute;
-  background-color: rgba(240, 248, 255, 0);
-  height: 100%;
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  /* align-items: center; */
-}
-.page_8 .about_page .content {
-  position: absolute;
-  height: 100%;
+  height: 90%;
   width: 100%;
   margin-top: 50px;
+  font-weight: bold;
 }
-.page_8 .about_page .content .part_1 {
-  flex-wrap: wrap;
+.page_8 .content .part_1 {
+  /*  flex-wrap: wrap; */
   display: flex;
   justify-content: space-around;
   height: 400px;
   width: 100%;
+  margin-bottom: 20px;
 }
-.page_8 .about_page .content .part_1 .title {
-  /* position: absolute; */
+.page_8 .content .part_1 .title {
   height: 360px;
   width: 250px;
-  /* border: 2px solid white; */
-  padding: 0 15px;
+  padding: 0px 15px;
 }
-.page_8 .about_page .content .part_1 .title h2 {
+.page_8 .content .part_1 .title h2 {
   font-size: 18px;
   margin: 0px 0px 40px;
   color: white;
 }
-.page_8 .about_page .content .part_1 .title p {
+.page_8 .content .part_1 .title p {
   font-size: 16px;
   margin: 0px 0px 16px;
 }
-.page_8 .about_page .content .part_1 .title i {
-  font-size: 28px;
-  padding: 15px;
-  margin: 20px 10px 0 10px;
+.page_8 .content .part_1 .title .icon_vacation {
+  /* min-height: 50px;
+  height: auto; */
+}
+.page_8 .content .part_1 .title .icon_vacation i {
+  height: auto;
+  font-size: 25px;
+  color: white;
+  background-color: #33313b;
   border: 2px solid #33313b;
   border-radius: 50px;
-  background-color: #33313b;
-  color: white;
+  margin: 20px 10px 0 10px;
+  padding: 15px;
 }
-.page_8 .about_page .content .part_1 .title_2 {
+.page_8 .content .part_1 .title_2 {
   /* position: absolute; */
   height: 360px;
   width: 250px;
   /*  border: 2px solid white; */
   /* padding: 0 15px; */
 }
-.page_8 .about_page .content .part_1 .title_2 ul li {
+.page_8 .content .part_1 .title_2 ul li {
   list-style: none;
-  padding: 10px 0 10px 0;
+  padding: 10px;
 }
-.page_8 .about_page .content .part_1 .title_2 h2 {
+.page_8 .content .part_1 .title_2 h2 {
   font-size: 18px;
   margin: 0px 0px 40px;
   color: white;
 }
-.page_8 .about_page .content .part_1 .title_3 {
+.page_8 .content .part_1 .title_3 {
   /* position: absolute; */
   height: 360px;
   width: 250px;
   /*  border: 2px solid white; */
-  padding: 0 15px;
+  /*   padding: 0 15px; */
 }
-.page_8 .about_page .content .part_1 .title_3 ul li {
+.page_8 .content .part_1 .title_3 ul li {
   list-style: none;
-  padding: 10px 0 10px 0;
+  padding: 10px;
 }
-.page_8 .about_page .content .part_1 .title_3 h2 {
+.page_8 .content .part_1 .title_3 h2 {
   font-size: 18px;
   margin: 0px 0px 40px;
   color: white;
 }
-.page_8 .about_page .content .part_1 .title_4 {
+.page_8 .content .part_1 .title_4 {
   /* position: absolute; */
   height: 360px;
   width: 250px;
   /*  border: 2px solid white; */
-  padding: 0 15px;
 }
-.page_8 .about_page .content .part_1 .title_4 ul li {
+.page_8 .content .part_1 .title_4 ul li {
   list-style: none;
-  padding: 10px 0 10px 0;
+  padding: 10px;
 }
-.page_8 .about_page .content .part_1 .title_4 h2 {
+.page_8 .content .part_1 .title_4 h2 {
   font-size: 18px;
   margin: 0px 0px 40px;
   color: white;
 }
-.page_8 .about_page .content .part_2 {
-  flex-wrap: wrap;
+.page_8 .content .part_2 {
+  padding: 10px;
+  height: 60px;
+  width: auto;
+  top: 100px;
 }
-.page_8 .about_page .content .part_2 p {
+.page_8 .content .part_2 p {
   text-align: center;
-  margin-top: 50px;
+}
+
+@media (max-width: 820px) {
+  .page_8 .bg img {
+    height: 1500px;
+    -o-object-fit: fill;
+       object-fit: fill;
+    width: auto;
+  }
+  .page_8 .content {
+    font-size: 16px;
+    height: auto;
+  }
+  .page_8 .content .part_1 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 900px;
+    height: auto;
+  }
+  .page_8 .content .part_1 .title {
+    height: auto;
+    width: 500px;
+    margin-bottom: 20px;
+    padding: 0px;
+  }
+  .page_8 .content .part_1 .title .icon_vacation {
+    height: 80px;
+    width: 20px;
+    display: flex;
+  }
+  .page_8 .content .part_1 .title .icon_vacation i {
+    font-size: 25px;
+    text-align: center;
+  }
+  .page_8 .content .part_1 .title_2 {
+    height: auto;
+    width: 500px;
+  }
+  .page_8 .content .part_1 .title_3 {
+    height: auto;
+    width: 500px;
+    margin-bottom: 20px;
+  }
+  .page_8 .content .part_1 .title_4 {
+    height: auto;
+    width: 500px;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 500px) {
+  .page_8 {
+    height: auto;
+  }
+  .page_8 .bg img {
+    height: 1300px;
+    width: auto;
+  }
+  .page_8 .content .part_1 {
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    font-size: 14px;
+  }
+  .page_8 .content .part_1 .title {
+    height: auto;
+    width: auto;
+  }
+  .page_8 .content .part_1 .title h2 {
+    margin: 5px;
+  }
+  .page_8 .content .part_1 .title .icon_vacation {
+    height: 80px;
+    width: 50px;
+    display: flex;
+  }
+  .page_8 .content .part_1 .title .icon_vacation i {
+    font-size: 25px;
+    text-align: center;
+  }
+  .page_8 .content .part_1 .title_2 {
+    height: auto;
+    width: auto;
+  }
+  .page_8 .content .part_1 .title_2 h2 {
+    margin: 5px;
+  }
+  .page_8 .content .part_1 .title_3 {
+    height: auto;
+    width: auto;
+  }
+  .page_8 .content .part_1 .title_3 h2 {
+    margin: 5px;
+  }
+  .page_8 .content .part_1 .title_4 {
+    height: auto;
+    width: auto;
+  }
+  .page_8 .content .part_1 .title_4 h2 {
+    margin: 5px;
+  }
 }/*# sourceMappingURL=page_8.css.map */

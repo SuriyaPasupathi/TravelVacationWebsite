@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,100;1,300&family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&family=Titillium+Web:wght@200&display=swap");
 .navbar {
-  position: fixed;
+  position: sticky;
   z-index: 10;
   top: 0;
   width: 100%;
   height: 80px;
-  background-color: white;
+  /*  background-color:rgba(117, 116, 116, 0.937); */
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -41,17 +41,24 @@
 .navbar .menu_bar {
   display: none;
   position: relative;
-  top: 20px;
-  font-size: 15px;
+  top: 0px;
+  color: rgba(255, 255, 255, 0.5019607843);
+  font-size: 20px;
   /* font-weight: bold; */
+}
+.navbar .menu_bar span {
+  padding: 10px;
+  font-size: 20px;
 }
 .navbar .menu_bar ul {
   display: none;
+  width: auto;
   position: absolute;
   right: -80px;
+  background-color: black;
 }
 .navbar .menu_bar ul li {
-  color: rgb(246, 244, 244);
+  color: rgb(245, 244, 246);
   list-style: none;
   padding: 10px 20px;
 }
@@ -64,76 +71,23 @@
 }
 .navbar .navbar > ul li:hover {
   color: black;
+  background-color: #33313b;
 }
 .navbar button:hover {
   color: black;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 980px) {
   .navbar {
+    background-color: black;
+  }
+  .navbar ul {
     display: none;
-    width: 100%;
-    height: 80px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
-  .navbar .log {
-    width: 160px;
-    height: 80px;
-    background-color: #33313b;
-    font-weight: bold;
-    text-align: center;
-    font-size: 24px;
-    color: rgb(233, 229, 229);
-  }
-  .navbar .log span {
-    font-size: 16px;
-    text-align: center;
-  }
-  .navbar ul li {
-    list-style-type: none;
-    display: inline-block;
-    margin: 0 20px;
-  }
-  .navbar ul button {
-    height: 50px;
-    width: 100px;
-    border: 2px solid rgb(249, 171, 48);
-    background-color: rgb(249, 171, 48);
-    color: white;
-    font-size: 15px;
-    /*   font-weight: bold; */
-    border-radius: 5px;
   }
   .navbar .menu_bar {
     display: block;
-    position: relative;
-    top: 20px;
-    font-size: 15px;
-    /* font-weight: bold; */
   }
-  .navbar .menu_bar ul {
-    display: none;
-    position: absolute;
-    right: -80px;
-  }
-  .navbar .menu_bar ul li {
-    color: rgb(246, 244, 244);
-    list-style: none;
-    padding: 10px 20px;
-  }
-  .navbar .navbar > ul li {
-    list-style: none;
-    display: inline-block;
-    padding: 25px;
-    font-size: 15px;
-    /* font-weight: bold; */
-  }
-  .navbar .navbar > ul li:hover {
-    color: black;
-  }
-  .navbar button:hover {
-    color: black;
+  .navbar .menu_bar:hover.menu_bar ul {
+    display: block;
   }
 }/*# sourceMappingURL=navbar.css.map */
