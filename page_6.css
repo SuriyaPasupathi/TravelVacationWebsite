@@ -31,33 +31,47 @@
   justify-content: space-evenly;
   /*  align-items: center; */
 }
-.page_6 .feedback .user_feed .feedback_1 {
+.page_6 .feedback .user_feed .feedback_1, .page_6 .feedback .user_feed .feedback_2, .page_6 .feedback .user_feed .feedback_3 {
   background-color: white;
   /*  margin: 40px; */
   height: 250px;
   width: 350px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-.page_6 .feedback .user_feed .feedback_1 p {
+.page_6 .feedback .user_feed .feedback_1 p, .page_6 .feedback .user_feed .feedback_2 p, .page_6 .feedback .user_feed .feedback_3 p {
   margin: 10px;
   color: #999999;
   font-size: 16px;
 }
-.page_6 .feedback .user_feed .feedback_1 .user_img {
+.page_6 .feedback .user_feed .feedback_1 .user_img, .page_6 .feedback .user_feed .feedback_2 .user_img, .page_6 .feedback .user_feed .feedback_3 .user_img {
   margin: 10px;
   display: flex;
 }
-.page_6 .feedback .user_feed .feedback_1 .user_img img {
+.page_6 .feedback .user_feed .feedback_1 .user_img img, .page_6 .feedback .user_feed .feedback_2 .user_img img, .page_6 .feedback .user_feed .feedback_3 .user_img img {
   height: 100px;
   width: 100px;
   border-radius: 50px;
 }
-.page_6 .feedback .user_feed .feedback_1 .user_img h3 {
+.page_6 .feedback .user_feed .feedback_1 .user_img h3, .page_6 .feedback .user_feed .feedback_2 .user_img h3, .page_6 .feedback .user_feed .feedback_3 .user_img h3 {
   margin: 30px 0 0 10px;
   font-size: 20px;
 }
-.page_6 .feedback .user_feed .feedback_1 .user_img h3 span {
+.page_6 .feedback .user_feed .feedback_1 .user_img h3 span, .page_6 .feedback .user_feed .feedback_2 .user_img h3 span, .page_6 .feedback .user_feed .feedback_3 .user_img h3 span {
   color: #999999;
   font-size: 16px;
   font-weight: 400;
+}
+
+@media (max-width: 1100px) {
+  .page_6 .feedback .user_feed .feedback_2 {
+    display: none;
+  }
+}
+@media (max-width: 750px) {
+  .page_6 .feedback .user_feed .feedback_2 {
+    display: none;
+  }
+  .page_6 .feedback .user_feed .feedback_3 {
+    display: none;
+  }
 }/*# sourceMappingURL=page_6.css.map */

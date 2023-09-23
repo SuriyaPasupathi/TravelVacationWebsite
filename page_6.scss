@@ -17,7 +17,7 @@ $colour2:#999999;
    position: relative;
    
   
-   .feedback_bg img{
+    .feedback_bg img{
     position: absolute;
     height: 600px;
     width: 100%;
@@ -43,7 +43,7 @@ $colour2:#999999;
             width: 100%;
             justify-content: space-evenly;
            /*  align-items: center; */
-            .feedback_1{
+            .feedback_1,.feedback_2,.feedback_3{
                 background-color: white;
                /*  margin: 40px; */
                 height: 250px;
@@ -85,4 +85,43 @@ $colour2:#999999;
     }
  }
     
-   
+ @media (max-width:1100px){
+    .page_6{
+        .feedback{
+            .user_feed{
+                .feedback_1{
+
+                }
+                .feedback_2{
+                    display: none;
+
+                }
+                .feedback_3{
+                    
+
+                }
+            }
+        }
+    }
+
+ }
+ @media (max-width:750px){
+    .page_6{
+        .feedback{
+            .user_feed{
+                .feedback_1{
+
+                }
+                .feedback_2{
+                    display: none;
+
+                }
+                .feedback_3{
+                    display: none;
+
+                }
+            }
+        }
+    }
+
+ }

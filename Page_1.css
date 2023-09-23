@@ -32,7 +32,7 @@
   height: 100%;
   width: 100%;
   position: absolute;
-  background-color: rgba(222, 126, 219, 0.275);
+  background-color: rgba(222, 126, 219, 0.455);
 }
 .page_1 .content {
   position: absolute;
@@ -42,17 +42,19 @@
   align-items: center;
   flex-direction: column;
   bottom: 0px;
+  flex-wrap: wrap;
 }
 .page_1 .content .part_1 {
   flex-wrap: wrap;
   height: auto;
-  margin-bottom: 150px;
+  /* margin-bottom: 150px; */
   width: 50%;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
   color: rgb(231, 231, 240);
+  margin: 20px;
 }
 .page_1 .content .part_1 i {
   color: white;
@@ -83,8 +85,8 @@
   align-content: center;
   flex-wrap: wrap;
   height: 130px;
-  width: 73%;
-  min-width: 73%;
+  width: auto;
+  /* min-width: 73%; */
   background-color: #33313b;
   padding: 24px;
   font-size: 20px;
@@ -116,4 +118,71 @@
 }
 .page_1 .content .part_2 i {
   padding: 5px;
+}
+.page_1 .content .booking {
+  display: none;
+  height: auto;
+  width: auto;
+  justify-content: space-between;
+  align-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /* min-width: 73%; */
+  background-color: #33313b;
+  padding: 24px;
+  font-size: 20px;
+  /*   margin-bottom: -50px; */
+}
+.page_1 .content .booking label {
+  color: rgb(255, 253, 250);
+}
+.page_1 .content .booking input, .page_1 .content .booking select {
+  background-color: #33313b;
+  color: #777A83;
+  font-size: 20px;
+  width: 184px;
+  height: 25px;
+  text-align: left;
+  border: 0px solid;
+  flex-wrap: wrap;
+}
+.page_1 .content .booking button {
+  height: 68px;
+  width: 184px;
+  border: 2px solid #F9AB30;
+  background-color: #F9AB30;
+  border-radius: 35px;
+  font-size: 16px;
+  color: white;
+}
+.page_1 .content .booking i {
+  padding: 5px;
+}
+
+@media (max-width: 1000px) {
+  .page_1 {
+    font-size: 25px;
+  }
+  .page_1 .content .part_1 {
+    height: auto;
+    font-size: 25px;
+  }
+  .page_1 .content .part_1 i {
+    font-size: 10px;
+    height: 40px;
+    width: 30px;
+    padding: 25px;
+    text-align: center;
+  }
+  .page_1 .content .part_1 h1 {
+    font-size: 30px;
+  }
+  .page_1 .content .part_2 {
+    display: none;
+  }
+  .page_1 .content .booking {
+    display: block;
+    height: 400px;
+    width: 60%;
+  }
 }/*# sourceMappingURL=Page_1.css.map */
